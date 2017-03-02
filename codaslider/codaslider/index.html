@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+
+  Coda Slider 3.0
+  Kevin Batdorf
+
+  http://kevinbatdorf.github.com/codaslider
+
+-->
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Codaslider : JQuery Slider Plugin" />
+
+    <!-- 
+      Here is the style sheet for the Coda Slider
+      You may want to "minify" this after making edits
+      http://www.refresh-sf.com/yui/ 
+    -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/coda-slider.css">
+
+    <!-- This is just styling for the demo to make it a little less crowded at the top -->
+    <style>h1{margin:100px;}
+.style1 {
+	margin-left: 20px;
+}
+.style2 {
+	text-align: center;
+}
+</style>
+
+    <!--
+    I would suggest using these for production, because of better caching
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    -->
+
+    <!-- Definitely use these for development -->
+    <script src="./js/jquery-1.7.2.min.js"></script>
+    <script src="./js/jquery-ui-1.8.20.custom.min.js"></script>
+
+    <!-- This of course is required. The full version (not .min) is also included in the js directory -->
+    <script src="./js/jquery.coda-slider-3.0.js"></script>
+
+    <title>Coda Slider 3.0</title>
+
+    <script>
+    $(function(){
+
+      /* Here is the slider using default settings */
+      $('#slider-id').codaSlider();
+      /* If you want to adjust the settings, you set an option
+         as follows:
+
+          $('#slider-id').codaSlider({
+            autoSlide:true,
+            autoHeight:false
+          });
+      
+      */
+    });
+
+    </script> 
+  </head>
+  <body>
+
+    <div class="coda-slider"  id="slider-id">
+      <div>
+        <h2 class="title">Reseña Histórica</h2>
+        <table style="width:630px">
+        <tr><td class="style2" >
+        <p align="justify">Aceros y Válvulas S.A es una empresa privada de capital nicaragüense, que inicia operaciones en Managua, Nicaragua en el año 2003. Surge como una necesidad a la demanda insatisfecha de comercializadores de la Industria del Acero, que cuenten con la capacidad técnica para asesorar pequeños, medianos y grandes proyectos..</p>
+		<p align="justify">“Nos especializamos en  Acero al Carbón como tubería con y sin costura de 1/2” a 24” para fluidos de gases, vapor y agua caliente. También comercializamos  válvulas de Gaveta, de Compuerta, de Bola, Globo, Check, entre otros; accesorios como Flanges, Codos, Tees y Niples, además de Láminas de Hierro Negro, Vigas y Accesorios Contra Incendios.”</p>       
+        <img alt="" src="../../images/20170904_100420.jpg" width="434" height="249" /><br />
+		<strong>Lic.Francisco Nuñez </strong><br />
+		<strong>Gerente General</strong><br/>
+        </td></tr>
+      </table>
+      </div>
+      <div>
+        <h2 class="title">Misión</h2>
+        <table>
+        <tr><td>
+		<blockquote style="text-align:justify" class="style1">“Somos una empresa dedicada a la comercialización y distribución de productos derivados del Acero, comprometidos en brindar los mas altos estándares de calidad en productos y servicios para nuestros clientes”.
+        </blockquote></td></tr>
+        <tr><td class="style2">
+			<img alt="" src="../../images/mision.png" width="245" height="244"></td></tr>
+        
+        </table>
+      </div>
+      <div>
+        <h2 class="title">Visión</h2>
+        <table>
+        <tr><td>
+       <blockquote style="text-align:justify">“Ser reconocidos como la empresa líder a nivel nacional y Centroamérica como los mas grandes distribuidores y comercializadores de productos derivados del acero, impulsando la búsqueda de la ampliación de nuestro portafolio de productos y servicios, en mejora constante a la demanda de nuevos mercados”.
+        </blockquote>
+        </td></tr>
+         <tr><td class="style2">
+			<img alt="" src="../../images/vision1.png" width="245" height="244"></td></tr>
+                </table>
+      </div>
+      <div>
+        <h2 class="title">Valores</h2>
+        <table>
+        <tr><td style="width: 636px">
+        			<ul >
+        	<li>Orientación al cliente.</li>
+            <li>Honestidad.</li>
+            <li>Responsabilidad.</li>
+		</ul>
+		</td></tr>
+		<tr><td class="style2" style="width: 636px"><img alt="" src="../../images/valores.png" width="245" height="244"></td></tr>
+		</table>
+      </div>
+      
+    </div>
+
+  </body>
+</html>

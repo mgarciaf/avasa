@@ -1,0 +1,18 @@
+#be-it-sidetab {
+	z-index: 999999;
+	background: #3b62a7;
+	padding: 0px 0px 0px 0px;
+}
+
+#be-it-sidetab .side-tab-bg-box {
+  	padding: 0px 0px 0px 0px;
+}
+
+#be-it-sidetab .fb-like-box {
+    background: #FFF;
+    color: #375594;
+		border: none;
+		overflow: hidden;
+  	width: 292px;
+  	height: 404px;
+}
